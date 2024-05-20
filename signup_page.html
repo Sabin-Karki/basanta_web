@@ -17,28 +17,36 @@
         <h1><button id="logo_main_web1"> <a href="index.html"><i class="fa-solid fa-house"></i>Basanta</a></button> </h1>
         </div>
         <div class="signup_settings">
-            <form action="">
+
+            <form action="insert.php" method="post">
             <div class="inputbar2">
-                 <label for="name"id="Detail_req_text" >Name</label>
-                <input type="text" placeholder=" Full name" id="name" required>
-            </div>
-            <div class="inputbar2">
-                <label for="address" id="Detail_req_text">Address</label>
-                <input type="text" placeholder="Some corner of universe" id="address" title="Type full address"> 
-            </div>  
-            <div class="inputbar2">
-                 <label for="email"id="Detail_req_text" >Email</label>
-                <input type="text" placeholder="must include @" id="email" required> 
-            </div>  
-            <div class="inputbar2">
-                <label for="message" id="Detail_req_text">Message</label>
-                <input type="text" value="I love your website" id="message">
-            </div>   
-            <div class="sign_up_button">
-                <input type="submit"  value="Sign up"  title="Submit details">
-            </div>  
+                 <label for="name" >Name</label>
+                <input type="text" placeholder=" Full name" id="name" name="name" required>
+                <br>
+                <br>
+            
+                <label for="address">Address</label>
+                <input type="text" placeholder="Some corner of universe" id="address" name="address" title="Type full address"> 
+                <br>
+                <br>
+
+                 <label for="email">Email</label>
+                <input type="text" placeholder="must include @" id="email" name="email" required> 
+                <br>
+                <br>
+
+                <label for="message">Message</label>
+                <input type="textbox" value="I love your website" id="message" name="message">
+                <br>
+                <br>
+
+                <button type="submit" title="Submit details">Submit </button>
+                <br>
+                <br>
+                
             <p id="randomtext">This is just demo button, your account will not be created and <br>No data will saved.</p>
-        </form>          
+        </div>
+        <form>          
         </div> 
 </body>
 </html>
