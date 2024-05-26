@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
             <td>" . htmlspecialchars($row["message"]) . "</td>
            
             <td><a href='delete.php?id=" . htmlspecialchars($id) . "'>Delete</a></td>
-             <td><a href='update.php?id=" . htmlspecialchars($id) . "'>update</a></td>
+             <td><a href='update_script.php?id=" . htmlspecialchars($id) . "'>update</a></td>
         </tr>";
     }
     echo "</table>";
